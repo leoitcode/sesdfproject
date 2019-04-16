@@ -71,10 +71,10 @@ The DataSUS data about health institutions and medical procedures are only codes
 
 The (INT_PROCEDS) is from original Dataset (INT_2010_to_2018), and also connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG), I've got a excel tabular data about this data containing the codes and the name of medical procedures, so I related the names with the codes on (INT_PROCEDS) to inform correct name to main dataset INT_2010_to_2018.
 
-- File 1: [Main Dataset](datasets/INT_2010_to_2018.csv)
-- File 2: [Main Procedures](datasets/INT_PROCEDS.rar) (rar compressed format)
+- File 1: [Main Dataset](datasets/INT_2010_to_2018.rar) (.rar compressed format)
+- File 2: [Main Procedures](datasets/INT_PROCEDS.rar) (.rar compressed format)
 - File 3: [Group Procedures](datasets/GRUPO_PROCED.csv)
-- File 4: [Subgroup Procedures](datasets/SUBGRUP_PROCED.csv)
+- File 4: [Subgroup Procedures](datasets/SUBGROUP_PROCED.csv)
          
 
 What's more, the same was done with (LISTA_CNES & CNES - T..), I've connected the names with the health institutions codes (CNES) on main dataset (INT_2010_to_2018) to show correct names on graphs.
