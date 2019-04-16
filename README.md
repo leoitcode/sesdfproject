@@ -21,7 +21,7 @@ The Data was obtained from DataSUS (IT Health Department of Brazil), this sector
 
 Link: [DataSUS](http://www2.datasus.gov.br/DATASUS/index.php?area=0901&item=1&acao=25)
 
-The files are formatted in (.dbc) which is the compressed form (.dbf) dBase III format.
+The files are in (.dbc) format which is the compressed form (.dbf) dBase III format.
 I used the dbf2dbc.exe (Decompresser Program DBC to DBF), but due there were 108 files to process a batch script was created to deal with all files in a row.
 
 The Batch script: 
