@@ -61,7 +61,7 @@ The whole process of Data preparation and Machine Learning was explained on:
 4- Power BI and Visualization
 ---------------------------------------------
 
-The DataSUS data about health institutions and medical procedures are only codes (numbers) which represent nothing to real world. I had to connect this numbers to real names of places and the procedures, that's why I've made a deep search on SUS (Unique Health System) for tabular data of Hospital names and procedures names from codes. As a result, this relationship model was created into Power BI:
+The DataSUS data about health institutions and medical procedures are only codes (numbers) which doesn't represent the true names of organizations. I had to connect this numbers to real names of places and the procedures, that's why I've made a deep search on SUS (Unique Health System) for tabular data of Hospital names and procedures names from codes. As a result, this relationship model was created into Power BI:
 
 <br />
 
