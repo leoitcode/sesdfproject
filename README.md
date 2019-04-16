@@ -74,7 +74,7 @@ The (INT_PROCEDS) is from original Dataset (INT_2010_to_2018), and also connecte
 - File 1: [Main Dataset](datasets/INT_2010_to_2018.rar) (.rar compressed format)
 - File 2: [Main Procedures](datasets/INT_PROCEDS.rar) (.rar compressed format)
 - File 3: [Group Procedures](datasets/GRUPO_PROCED.csv)
-- File 4: [Subgroup Procedures](datasets/SUBGROUP_PROCED.csv)
+- File 4: [Subgroup Procedures](datasets/SUBGRUPO_PROCED.csv)
          
 
 What's more, the same was done with (LISTA_CNES & CNES - T..), I've connected the names with the health institutions codes (CNES) on main dataset (INT_2010_to_2018) to show correct names on graphs.
