@@ -65,7 +65,7 @@ The DataSUS data about health institutions and medical procedures are only codes
 
 <br />
 
-![Relation_PowerBI](images/relation_powerbi.png)
+![Relation_PowerBI](images/Powerbi_Int_schema.png)
 
 <br />
 
