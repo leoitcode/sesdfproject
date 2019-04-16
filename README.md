@@ -31,7 +31,7 @@ for %%f in (*.dbc) do call dbf2dbc.exe %%f
 
 Link: [Program dbf2dbc explanation](http://www2.datasus.gov.br/DATASUS/index.php?area=060805&item=6#dbf2dbc)
 
-After the processing, I've got each (.dbf) file and sent it to pandas Dataframe. This whole process is explained on [Notebook Analysis](INTERNACAO_ANALYSIS.ipynb)
+After the processing, I've got each (.dbf) file and sent it to pandas Dataframe. This whole process is explained on notebooks.
 
 
 <br />
