@@ -62,6 +62,7 @@ The whole process of Data preparation and Machine Learning was explained on:
 4- Power BI and Visualization
 ---------------------------------------------
 
+<br />
 **Relationship**
 
 The DataSUS data about health institutions and medical procedures are only codes (numbers) which doesn't represent the true names of organizations. I had to connect this numbers to real names of places and the procedures, that's why I've made a deep search on SUS (Unique Health System) for tabular data of Hospital names and procedures names from codes. As a result, this relationship model was created into Power BI:
@@ -74,6 +75,8 @@ The DataSUS data about health institutions and medical procedures are only codes
 
 The (INT_PROCEDS.csv) is from original Dataset (INT_2010_to_2018.csv) created on Notebook, and so it was connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG). What's more, the exact same was done with (LISTA_CNES & CNES - T..) which the names with the health institutions codes (CNES) were connected to main dataset (INT_2010_to_2018.csv) in order to show correct names on charts.
 
+<br />
+
 **Columns**
 
 Some columns (Variables) were selected to connect the datasets:
@@ -83,6 +86,8 @@ Some columns (Variables) were selected to connect the datasets:
 - **NAIH**: Informs the procedures names (PROCED_GP & SG) and each hospitalization value  (VALOR) to Main Dataset (INT_2010_to_2018.csv)
 - **CNES**: Informs the name of health institution (Nome Fatasia, Establ. Saude) to Main Dataset (INT_2010_to_2018.csv)
 - **DATE**: Informs the Monthly value of each Date to Main Dataset (INT_2010_to_2018.csv)
+
+<br />
 
 **Power BI Files**
 
