@@ -74,7 +74,7 @@ The DataSUS data about health institutions and medical procedures are only codes
 
 <br />
 
-The (INT_PROCEDS.csv) is from original Dataset (INT_2010_to_2018.csv) created on Notebook, and so it was connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG). What's more, the exact same was done with (LISTA_CNES & CNES - T..) whose names with the health institutions codes (CNES) were connected to main dataset (INT_2010_to_2018.csv) in order to show correct names on charts.
+The (INT_PROCEDS.csv) is from original Dataset (INT_2010_to_2018.csv) created on Notebook, and so it was connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG). What's more, the exact same was done with (LISTA_CNES & CNES - T..) whose names connected to the health institutions codes (CNES) on main dataset (INT_2010_to_2018.csv) in order to show correct names on charts.
 
 <br />
 
