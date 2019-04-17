@@ -69,19 +69,25 @@ The DataSUS data about health institutions and medical procedures are only codes
 
 <br />
 
-The (INT_PROCEDS) is from original Dataset (INT_2010_to_2018), and also connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG), I've got a excel tabular data about this data containing the codes and the name of medical procedures, so I related the names with the codes on (INT_PROCEDS) to inform correct name to main dataset INT_2010_to_2018.
+The (INT_PROCEDS) is from original Dataset (INT_2010_to_2018.csv) created on Notebook, and so it was connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG). What's more, the same was done with (LISTA_CNES & CNES - T..), I've connected the names with the health institutions codes (CNES) on main dataset (INT_2010_to_2018) to show correct names on graphs.
 
 - File 1: [Main Dataset](datasets/INT_2010_to_2018.rar) (.rar compressed format)
 - File 2: [Main Procedures](datasets/INT_PROCEDS.rar) (.rar compressed format)
 - File 3: [Group Procedures](datasets/GRUPO_PROCED.xlsx) (.xlsx excel file)
 - File 4: [Subgroup Procedures](datasets/SUBGRUPO_PROCED.xlsx) (.xlsx excel file)
-         
+- File 5: [Main Dataset](datasets/INT_2010_to_2018.csv) 
+- File 6: [Main Inst. Name](datasets/LISTA_CNES.csv)
+- File 7: [Support Inst. Name](datasets/CNES.csv)
 
-What's more, the same was done with (LISTA_CNES & CNES - T..), I've connected the names with the health institutions codes (CNES) on main dataset (INT_2010_to_2018) to show correct names on graphs.
+Some columns (Variables) was selected to connect the datasets:
 
-- File 1: [Main Dataset](datasets/INT_2010_to_2018.csv) 
-- File 2: [Main Inst. Name](datasets/LISTA_CNES.csv)
-- File 3: [Support Inst. Name](datasets/CNES.csv)
+- **PROCED_GP**: Informs the name of medical procedure (PROCED) to code (PROCED_GP) in (INT_PROCEDS.csv)
+- **PROCED_SG**: Informs the name of medical procedure (PROCED) to code (PROCED_SG) in (INT_PROCEDS.csv)
+- **NAIH**: Informs the procedures names (PROCED_SG & PROCED_GP) and total value (VALUE) to Main Dataset (INT_2010_to_2018.csv)
+- **CNES**: Informs the name of health institution (Nome Fatasia, Establ. Saude) to Main Dataset (INT_2010_to_2018.csv)
+- **DATE**: Informs the Monthly value of each Date to Main Dataset (INT_2010_to_2018.csv)
+
+<br />
 
 As a result, visualizations was made on Power BI from data in order to compare and get insights.
 
