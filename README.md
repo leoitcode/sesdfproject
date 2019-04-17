@@ -79,7 +79,7 @@ Some columns (Variables) was selected to connect the datasets:
 
 - **PROCED_GP**: Informs the name of medical procedure (PROCED) to code (PROCED_GP) in (INT_PROCEDS.csv)
 - **PROCED_SG**: Informs the name of medical procedure (PROCED) to code (PROCED_SG) in (INT_PROCEDS.csv)
-- **NAIH**: Informs the procedures names (PROCED_GP & SG) and the each hospitalization total value  (VALOR) to Main Dataset (INT_2010_to_2018.csv)
+- **NAIH**: Informs the procedures names (PROCED_GP & SG) and each hospitalization value  (VALOR) to Main Dataset (INT_2010_to_2018.csv)
 - **CNES**: Informs the name of health institution (Nome Fatasia, Establ. Saude) to Main Dataset (INT_2010_to_2018.csv)
 - **DATE**: Informs the Monthly value of each Date to Main Dataset (INT_2010_to_2018.csv)
 
