@@ -24,10 +24,12 @@ Link: [DataSUS](http://www2.datasus.gov.br/DATASUS/index.php?area=0901&item=1&ac
 The files are in (.dbc) format which is the compressed form (.dbf) dBase III format.
 I used the dbf2dbc.exe (Decompresser Program DBC to DBF), but due there were 108 files to process a batch script was created to deal with all files in a row.
 
-The Batch script: 
+The Batch script (process_all_files.bat)
 ```
 for %%f in (*.dbc) do call dbf2dbc.exe %%f
 ```
+
+![batch](images/process_bat_project_9.jpg)
 
 Link: [Program dbf2dbc explanation](http://www2.datasus.gov.br/DATASUS/index.php?area=060805&item=6#dbf2dbc)
 
