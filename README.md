@@ -61,6 +61,8 @@ The whole process of Data preparation and Machine Learning was explained on:
 4- Power BI and Visualization
 ---------------------------------------------
 
+**Relationship**
+
 The DataSUS data about health institutions and medical procedures are only codes (numbers) which doesn't represent the true names of organizations. I had to connect this numbers to real names of places and the procedures, that's why I've made a deep search on SUS (Unique Health System) for tabular data of Hospital names and procedures names from codes. As a result, this relationship model was created into Power BI:
 
 <br />
@@ -69,15 +71,9 @@ The DataSUS data about health institutions and medical procedures are only codes
 
 <br />
 
-The (INT_PROCEDS) is from original Dataset (INT_2010_to_2018.csv) created on Notebook, and so it was connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG). What's more, the same was done with (LISTA_CNES & CNES - T..), I've connected the names with the health institutions codes (CNES) on main dataset (INT_2010_to_2018) to show correct names on graphs.
+The (INT_PROCEDS.csv) is from original Dataset (INT_2010_to_2018.csv) created on Notebook, and so it was connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG). What's more, the same was done with (LISTA_CNES & CNES - T..), I've connected the names with the health institutions codes (CNES) on main dataset (INT_2010_to_2018.csv) to show correct names on graphs.
 
-- File 1: [Main Dataset](datasets/INT_2010_to_2018.rar) (.rar compressed format)
-- File 2: [Main Procedures](datasets/INT_PROCEDS.rar) (.rar compressed format)
-- File 3: [Group Procedures](datasets/GRUPO_PROCED.xlsx) (.xlsx excel file)
-- File 4: [Subgroup Procedures](datasets/SUBGRUPO_PROCED.xlsx) (.xlsx excel file)
-- File 5: [Main Inst. Name](datasets/LISTA_CNES.csv)
-- File 6: [Support Inst. Name](datasets/CNES.csv)
-- File 7: [Monthly Value](datasets/INT_VALOR_MENSAL.csv)
+**Columns**
 
 Some columns (Variables) was selected to connect the datasets:
 
@@ -87,7 +83,19 @@ Some columns (Variables) was selected to connect the datasets:
 - **CNES**: Informs the name of health institution (Nome Fatasia, Establ. Saude) to Main Dataset (INT_2010_to_2018.csv)
 - **DATE**: Informs the Monthly value of each Date to Main Dataset (INT_2010_to_2018.csv)
 
+**Power BI Files**
+
+- File 1: [Main Dataset](datasets/INT_2010_to_2018.rar) (.rar compressed format)
+- File 2: [Main Procedures](datasets/INT_PROCEDS.rar) (.rar compressed format)
+- File 3: [Group Procedures](datasets/GRUPO_PROCED.xlsx) (.xlsx excel file)
+- File 4: [Subgroup Procedures](datasets/SUBGRUPO_PROCED.xlsx) (.xlsx excel file)
+- File 5: [Main Inst. Name](datasets/LISTA_CNES.csv)
+- File 6: [Support Inst. Name](datasets/CNES.csv)
+- File 7: [Monthly Value](datasets/INT_VALOR_MENSAL.csv)
+
 <br />
+
+**Visualizations**
 
 As a result, visualizations was made on Power BI from data in order to compare and get insights.
 
