@@ -9,15 +9,15 @@ Analysis on patient's hospitalizations throughout state health institutions of F
 1- The Data
 ---------------
 
-The Data is the hospitalizations of Health Department of Federal District (SESDF) from year 2010 to 2018.
+The data are the hospitalizations of Health Department of Federal District (SESDF) from year 2010 to 2018.
 
-The Data is composed by 108 files with 37 columns, ~20 million of rows and 4.74GB size.
+The data are composed by 108 files with 37 columns, ~20 million of rows and 4.74GB size.
 
 Only 9 columns were selected to analysis and the overall explanation for excluded columns is on columns_excluded.md file.
 
 **Getting Data**
 
-The Data was obtained from DataSUS (IT Health Department of Brazil), this sector is related to Ministry of Health of Brazil.
+The data were obtained from DataSUS (IT Health Department of Brazil), this sector is related to Ministry of Health of Brazil.
 
 Link: [DataSUS](http://www2.datasus.gov.br/DATASUS/index.php?area=0901&item=1&acao=25)
 
