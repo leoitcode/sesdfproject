@@ -92,13 +92,13 @@ Some columns (Variables) were selected to connect the datasets:
 
 **Power BI Files**
 
-- File 1: [Main Dataset](datasets/INT_2010_to_2018.rar) (.rar compressed format)
-- File 2: [Main Procedures](datasets/INT_PROCEDS.rar) (.rar compressed format)
-- File 3: [Group Procedures](datasets/GRUPO_PROCED.xlsx) (.xlsx excel file)
-- File 4: [Subgroup Procedures](datasets/SUBGRUPO_PROCED.xlsx) (.xlsx excel file)
-- File 5: [Main Inst. Name](datasets/LISTA_CNES.csv)
-- File 6: [Support Inst. Name](datasets/CNES.csv)
-- File 7: [Monthly Value](datasets/INT_VALOR_MENSAL.csv)
+- File 1: [Main Dataset](datasets/INT_2010_to_2018.rar) (.csv compressed format)
+- File 2: [Main Procedures](datasets/INT_PROCEDS.rar) (.csv compressed format)
+- File 3: [Group Procedures](datasets/GRUPO_PROCED.xlsx) (.xlsx excel)
+- File 4: [Subgroup Procedures](datasets/SUBGRUPO_PROCED.xlsx) (.xlsx excel)
+- File 5: [Main Inst. Name](datasets/LISTA_CNES.xlsx) (.xlsx excel)
+- File 6: [Support Inst. Name](datasets/CNES.csv) (.csv)
+- File 7: [Monthly Value](datasets/INT_VALOR_MENSAL.csv) (.csv)
 
 <br />
 
