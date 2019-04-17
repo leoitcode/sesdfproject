@@ -9,7 +9,7 @@ Analysis on patient's hospitalizations throughout state health institutions of F
 1- The Data
 ---------------
 
-The Data is the hospitalizations of Federal District from year 2010 to 2018.
+The Data is the hospitalizations of Health Department of Federal District (SESDF) from year 2010 to 2018.
 
 The Data is composed by 108 files with 37 columns, ~20 million of rows and 4.74GB size.
 
