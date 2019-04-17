@@ -28,8 +28,7 @@ The Batch script (process_all_files.bat)
 ```
 for %%f in (*.dbc) do call dbf2dbc.exe %%f
 ```
-
-![batch](images/process_bat_project_9.jpg)
+<img src="images/process_bat_project_9.jpg" width="55%">
 
 Link: [Program dbf2dbc explanation](http://www2.datasus.gov.br/DATASUS/index.php?area=060805&item=6#dbf2dbc)
 
