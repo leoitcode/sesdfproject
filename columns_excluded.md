@@ -1,6 +1,6 @@
 Explicação para exclusão de colunas (Portuguese version):
 
-SP_GESTOR  Devido a repetição sem utilidade</ br>
+SP_GESTOR  Devido a repetição sem utilidade <br />
 SP_GESTOR_1 Campo repetido
 SP_UF Unidade da Federação sempre será 53 devido todas as internações serem do Distrito Federal, sem utilidade
 SP_NUM_PR Campo Zerado
