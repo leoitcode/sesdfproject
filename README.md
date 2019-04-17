@@ -51,8 +51,8 @@ After the processing, I've got each (.dbf) file and sent it to pandas Dataframe.
 ---------------------------------------------
 
 The whole process of Data preparation and Machine Learning was explained on:
-- Português (BR): [Notebook](hosp_analysis_PTBR_version.ipynb)
-- English (US): [Notebook](hosp_analysis_US_version.ipynb)
+- Português (BR): [Notebook](https://nbviewer.jupyter.org/github/leoitcode/sesdfproject/blob/master/hosp_analysis_PTBR_version.ipynb)
+- English (US): [Notebook](https://nbviewer.jupyter.org/github/leoitcode/sesdfproject/blob/master/hosp_analysis_US_version.ipynb)
 
 <br />
 
