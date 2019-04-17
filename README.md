@@ -13,7 +13,7 @@ The Data is the hospitalizations of Federal District from year 2010 to 2018.
 
 The Data is composed by 108 files with 37 columns, ~20 million of rows and 4.74GB size.
 
-Only 9 columns was selected to analysis and the overall explanation for this is on columns_explanation.md file.
+Only 9 columns was selected to analysis and the overall explanation for excluded columns is on columns_excluded.md file.
 
 **Getting Data**
 
