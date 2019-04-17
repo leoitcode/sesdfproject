@@ -125,7 +125,7 @@ My reports on Power BI web link: [Hospitalization Report](https://app.powerbi.co
 InovaSES
 --------
 
-![InovaSES](INOVASES-DF.png)
+![InovaSES](images/INOVASES-DF.png)
 
 InovaSES supports this project http://www.saude.df.gov.br/inovases-quem-somos/
 
