@@ -13,7 +13,7 @@ The Data is the hospitalizations of Health Department of Federal District (SESDF
 
 The Data is composed by 108 files with 37 columns, ~20 million of rows and 4.74GB size.
 
-Only 9 columns was selected to analysis and the overall explanation for excluded columns is on columns_excluded.md file.
+Only 9 columns selected to analysis and the overall explanation for excluded columns is on columns_excluded.md file.
 
 **Getting Data**
 
@@ -71,11 +71,11 @@ The DataSUS data about health institutions and medical procedures are only codes
 
 <br />
 
-The (INT_PROCEDS.csv) is from original Dataset (INT_2010_to_2018.csv) created on Notebook, and so it was connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG). What's more, the same was done with (LISTA_CNES & CNES - T..), I've connected the names with the health institutions codes (CNES) on main dataset (INT_2010_to_2018.csv) to show correct names on graphs.
+The (INT_PROCEDS.csv) is from original Dataset (INT_2010_to_2018.csv) created on Notebook, and so it was connected  with Group of Procedures(PROCED_GP) and Subgroup of Procedures(PROCED_SG). What's more, the exact same was done with (LISTA_CNES & CNES - T..) which the names with the health institutions codes (CNES) were connected to main dataset (INT_2010_to_2018.csv) in order to show correct names on charts.
 
 **Columns**
 
-Some columns (Variables) was selected to connect the datasets:
+Some columns (Variables) were selected to connect the datasets:
 
 - **PROCED_GP**: Informs the name of medical procedure (PROCED) to code (PROCED_GP) in (INT_PROCEDS.csv)
 - **PROCED_SG**: Informs the name of medical procedure (PROCED) to code (PROCED_SG) in (INT_PROCEDS.csv)
@@ -97,7 +97,7 @@ Some columns (Variables) was selected to connect the datasets:
 
 **Visualizations**
 
-As a result, visualizations was made on Power BI from data in order to compare and get insights.
+As a result, visualizations were made on Power BI from data in order to compare and get insights.
 
 My reports on Power BI web link: [Hospitalization Report](https://app.powerbi.com/view?r=eyJrIjoiMTM1NDc2MjMtMDUzOC00MzVjLWE1MDYtN2Q0NDFkNDk3YzE1IiwidCI6IjE1MDQ5MTM2LTE1MGMtNGNlYy1iMjY5LTk2YTM2M2QwZGYyZiIsImMiOjF9&pageName=ReportSection1)
 
