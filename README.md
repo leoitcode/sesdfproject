@@ -78,6 +78,7 @@ The (INT_PROCEDS) is from original Dataset (INT_2010_to_2018.csv) created on Not
 - File 5: [Main Dataset](datasets/INT_2010_to_2018.csv) 
 - File 6: [Main Inst. Name](datasets/LISTA_CNES.csv)
 - File 7: [Support Inst. Name](datasets/CNES.csv)
+- File 8: [Monthly Value](datasets/INT_VALOR_MENSAL.csv)
 
 Some columns (Variables) was selected to connect the datasets:
 
